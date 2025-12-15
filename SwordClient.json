@@ -1,0 +1,28 @@
+{
+  "assets": "1.8",
+  "id": "SwordClient",
+  "libraries": [
+    {
+      "name": "me.eldodebug:SwordClient:3",
+      "url": "https://swordclientdev.github.io/remote/libs/"
+    },
+    {
+      "name": "me.eldodebug:Optifine:Release",
+      "url": "https://swordclientdev.github.io/remote/libs/"
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12"
+    },
+    {
+      "name": "org.ow2.asm:asm-all:5.0.3"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass optifine.OptiFineForgeTweaker --tweakClass me.eldodebug.soar.injection.mixin.GlideTweaker",
+  "minimumLauncherVersion": 14,
+  "releaseTime": "2015-12-03T09:24:39+00:00",
+  "time": "2015-12-03T09:24:39+00:00",
+  "type": "release",
+  "inheritsFrom": "1.8.9",
+  "jar": "1.8.9"
+}
